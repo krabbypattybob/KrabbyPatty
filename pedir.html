@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hamburguesas deliciosas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="http://www.clker.com/cliparts/c/6/a/f/1258332748659551760cangre-md.png"
+        type="image/x-icon">
+
+</head>
+
+<body>
+
+    <div id="xd">
+
+
+        
+        <a href="index.html" class="btn-neon">
+            <h2>Inicio</h2>
+        </a>
+        <a href="menu.html" class="btn-neon">
+            <h2>Menú</h2>
+        </a>
+        <a href="pedir.html" class="btn-neon">
+            <h2>Pide ahora</h2>
+        </a>
+        <a href="Tutoriales.html" class="btn-neon" class="btn-neon">
+            <h2>Tutoriales</h2>
+        </a>
+      
+
+
+    </div>
+
+   
+    <div class="container">
+        
+        <div class="titulos"><h1 >Hamburguesas</h1></div>  
+        <br>
+        <div class="burger">
+            <img src="https://www.pngfind.com/pngs/m/626-6263468_hamburguesa-bacon-clasica-hamburguesa-imagenes-de-hamburguesas-png.png"
+                alt="Hamburguesa clásica">
+            <h3>Hamburguesa clásica</h3>
+            <p>Carne, lechuga, tomate, queso y salsa especial</p>
+            <p id="precio">200$</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="burger">
+            <img
+                src="https://w7.pngwing.com/pngs/71/993/png-transparent-hamburger-veggie-burger-cheeseburger-mcdonald-s-quarter-pounder-chicken-sandwich-burger-king-food-recipe-cheeseburger-thumbnail.png">
+            <h3>Hamburguesa vegetariana</h3>
+            <p>Hamburguesa de garbanzos con lechuga, tomate, queso y salsa especial</p>
+            <p id="precio">200$</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="burger">
+            <img
+                src="https://w7.pngwing.com/pngs/317/859/png-transparent-graphy-of-burger-with-tomato-and-vegetable-veggie-burger-hamburger-vegetarian-cuisine-chicken-sandwich-vada-pav-burger-food-cheese-recipe-thumbnail.png">
+            <h3>Hamburguesas de pollo</h3>
+            <p>Pechuga de pollo empanizada con lechuga, tomate, queso y salsa especial</p>
+            <p id="precio">200$</p>
+            <button>Agregar al carrito</button>
+        </div>
+            <div class="burger">
+                <img
+                    src="https://www.pngall.com/wp-content/uploads/5/Barbecue-Hamburger-PNG.png">
+                <h3>Hamburguesas de Barbacoa</h3>
+                <p>Hamburguesa 100% de ternera con queso fundido, lechuga, tomate, pepinillos y salsa BBQ</p>
+                <p id="precio">200$</p>
+                <button>Agregar al carrito</button>
+            </div>
+        
+        
+        <div class="alitas">
+        <div class="titulos"><h1 >Alitas</h1></div>  
+            <div class="al">
+                <img
+                    src="alitas.png">
+                <h3>Combo 6 alitas</h3>
+                <p>6 piezas de alitas, 1 salsa, 1 papas a la francesa medianas, 1 refresco de lata 255 ml a elección.</p>
+                <p id="precio">200$</p>
+                <button>Agregar al carrito</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+        
+        <div class="contactanos">
+            <h2 class="titulos-footer">Conócenos</h2>
+            <ul class="informacion-contacto">
+                <li>
+                    <span><i class="fa-solid fa-location-dot"> </i> </span>
+                    <p>Direccion</p>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <p>+56 5547964592 <br>+56 5567894563</p>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <p>fyuli453@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <script>
+            // JavaScript
+            const buttons = document.querySelectorAll('.burger button');
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    alert('¡Producto agregado al carrito!');
+                });
+            });
+        </script>
+</body>
+
+</html>

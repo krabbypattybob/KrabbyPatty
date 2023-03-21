@@ -1,0 +1,320 @@
+/* Estilos CSS */
+body {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2
+}
+
+.btn-neon {
+  border-bottom: 2px solid #00ba38;
+  /* Línea debajo del botón activo */
+  border: none;
+  /* Sin borde */
+  color: white;
+  /* Color del texto */
+  justify-content: space-between;
+  padding: 1px 30px;
+  /* Espacio alrededor del texto */
+  text-align: justify;
+  /* Centrar el texto */
+  text-decoration: none;
+
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: Courier;
+  flex-wrap: wrap;
+}
+
+.btn-neon:hover {
+
+  color: #20B2AA;
+  /* Nuevo color del texto cuando el mouse esté sobre el botón */
+}
+
+.logo {
+  max-height: 2em;
+  cursor: pointer;
+  align-content: safe;
+
+}
+
+header {
+
+
+  position: fixed;
+  width: 100%;
+
+}
+
+#xd {
+  background-color: #8FBC8F;
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  /* Establece un ancho del 50% del ancho de la ventana del navegador */
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#xd a {
+
+  margin-right: 20px;
+
+
+}
+
+h1 {
+
+  text-align: center;
+}
+
+/* Inicio */
+.png {
+
+  display: flex;
+  background-position: center;
+  flex-wrap: wrap;
+  object-fit: cover;
+  padding-bottom: 10.1em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ima img {
+  background-position: center;
+  width: 1500px;
+  height: 250px;
+  object-fit: cover;
+  display: flex;
+
+
+}
+
+.png p {
+  margin: 100px;
+  font-size: 30px;
+  object-fit: cover;
+  width: 1200px;
+  text-align: center;
+
+}
+
+/* inicio */
+
+/* Hamburguesas */
+.container {
+  background:none;
+  border: none;
+  overflow-y: scroll;
+  height: 300px;
+  width: 550px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 80px;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  flex-wrap: wrap;
+
+}
+.titulos{
+ 
+  display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+.burger {
+  width: 200px;
+  height: 240px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+
+
+}
+
+.burger img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.burger h3 {
+  margin: 10px;
+  font-size: 10px;
+}
+
+.burger p {
+  margin: 10px;
+  font-size: 10px;
+
+}
+
+.burger button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.burger button:hover {
+  background-color: #555;
+}
+
+/* Hamburguesas */
+
+/* videos */
+
+.al {
+  width: 200px;
+  height: 240px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.al img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.al h3 {
+  margin: 10px;
+  font-size: 10px;
+}
+
+.al p {
+  margin: 10px;
+  font-size: 10px;
+
+}
+ #precio {
+  
+  font-size: 10px;
+font-family:precio;
+text-align: center;
+ 
+}
+@font-face {
+  font-family:precio;
+  src: url(precio.ttf);
+}
+
+.al button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.al button:hover {
+  background-color: #555;
+}
+
+/* Hamburguesas */
+/* Menu.................................................. */
+.menu {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 12em;
+  min-height: 100vh;
+}
+
+#t {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.productos img {
+  width: 100%;
+  height: 210px;
+  border-radius: 10px;
+  transition: 0.5s;
+  object-fit: cover;
+
+}
+
+.productos h3 {
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.productos img:hover {
+  transform: scale(0.75);
+
+}
+
+/* Ultimo */
+.contactanos {
+  background-color: #3f3f3f;
+  color: #f2f2f2;
+
+  position: absolute;
+  width: 100%;
+
+  margin-top: auto;
+}
+
+/* Ultimo */
+/* videos */
+.videos{
+ 
+
+margin: 0px;
+display: flex;
+
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding-bottom: 12em;
+min-height: 100vh;
+
+}
+.videos iframe{
+ 
+  width:100%;
+  height: 200px;
+
+}
+.videos h1{
+  width: 100%;
+ 
+  
+}
+
+/* videos */
